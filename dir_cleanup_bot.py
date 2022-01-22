@@ -2,6 +2,9 @@ import os
 import shutil
 import platform
 
+"""
+    This script can be used to group files into separate folders based on their extensions
+"""
 if platform.system() != 'Linux':
     print('Cannot run on any OS apart from linux.....exiting.')
     exit()
